@@ -1,23 +1,4 @@
-/*const cards = document.querySelectorAll(".card");
-let hasFlipedCard = false;
-let firstCard, secondCard; 
-
-
-function flipCard() {
-  this.classList.add("flip");
-  if(!hasFlipedCard){
-      hasFlipedCard = true
-      firstCard = this;
-      return;
-  }
-  
-
-}
-
-cards.forEach((card) => {
-  card.addEventListener("click", flipCard);
-});
-*/const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.card');
 let hasFlippedCard = false;
 let firstCard, secondCard;
 let lockBoard = false;
