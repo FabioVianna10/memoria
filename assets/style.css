@@ -95,4 +95,8 @@ body {
     transition: transform 0.5s;
    
   }
+
+  #cardFront {
+    transform: rotateY(100deg);
+  }
 }
